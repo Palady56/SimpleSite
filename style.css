@@ -24,7 +24,7 @@ html {
 
 .top-container {
     padding-top: 80px;
-    padding-bottom: 142px;
+    padding-bottom: 140px;
     height: 100%;
     /* to fit-content */
     background: var(--bg-main-shade);
@@ -60,13 +60,14 @@ a.header-active {
 }
 
 .info-block {
-    margin-top: 162px;
+    margin-top: 160px;
 }
 
 .accent-text {
     font-weight: 500;
     font-size: 48px;
     line-height: 164%;
+    height: 45px;
     color: var(--text-accent);
     margin-bottom: 60px;
 }
@@ -81,7 +82,8 @@ a.header-active {
 
 .main-text-position {
     width: 512px;
-    margin-bottom: 65px;
+    height: 67px;
+    margin-bottom: 60px;
 }
 
 .message-btn {
