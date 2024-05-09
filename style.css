@@ -47,7 +47,7 @@ a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 16px;
     letter-spacing: 0.1em;
     color: var(--text-accent);
 }
@@ -58,36 +58,39 @@ a.header-active {
 }
 
 .info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
     margin-top: 15.5%;
 }
 
 .accent-text {
     font-weight: 500;
     font-size: 48px;
-    line-height: 164%;
-    height: 45px;
+    line-height: 45px;
     color: var(--text-accent);
     /* margin-bottom: 60px; */
-    margin-bottom: 6.3%;
+    /* margin-bottom: 6.3%; */
 }
 
 .main-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 26.25px;
     width: 46%;
     color: var(--text-main);
 }
 
-.main-text-position {
+/* .main-text-position {
     height: 67px;
     margin-bottom: 6.75%;
-}
+} */
 
 .message-btn {
     font-weight: 400;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 26.25px;
     letter-spacing: 0.1em;
     text-align: center;
     width: 225px;
@@ -107,7 +110,7 @@ a.header-active {
 .about-container {
     width: 100%;
     height: fit-content;
-    padding: 6% 0;
+    padding: 5.3% 0;
 }
 
 .about-block {
@@ -128,7 +131,7 @@ a.header-active {
 .main-text-block {
     font-weight: 400;
     font-size: 16px;
-    line-height: 164%;
+    line-height: 26.25px;
     width: 50%;
     text-align: center;
     color: var(--text-main);
@@ -137,7 +140,7 @@ a.header-active {
 .project-container {
     width: 100%;
     height: fit-content;
-    padding: 6% 20%;
+    padding: 5.3% 20%;
     background: var(--bg-secondary);
 }
 
@@ -170,7 +173,7 @@ a.header-active {
 
 .job-container {
     width: 100%;
-    padding: 6% 0;
+    padding: 5.3% 0;
     background: var(--bg-main-shade);
 }
 
@@ -251,6 +254,10 @@ footer {
 
     .footer-name, .footer-copyright {
         font-size: 14px;
+    }
+
+    .accent-text {
+        line-height: 78px;
     }
 }
 
