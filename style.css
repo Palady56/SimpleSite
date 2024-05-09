@@ -25,8 +25,8 @@ html {
 }
 
 .top-container {
-    padding-top: 5.37%;
-    padding-bottom: 9.4%;
+    padding-top: 4.9%;
+    padding-bottom: 8.5%;
     height: 100%;
     /* to fit-content */
     background: var(--bg-main-shade);
@@ -65,10 +65,10 @@ a.header-active {
     font-weight: 500;
     font-size: 48px;
     line-height: 164%;
-    height: fit-content;
+    height: 45px;
     color: var(--text-accent);
     /* margin-bottom: 60px; */
-    margin-bottom: 7.4%;
+    margin-bottom: 6.3%;
 }
 
 .main-text {
@@ -80,10 +80,8 @@ a.header-active {
 }
 
 .main-text-position {
-    /* width: 512px; */
-    height: fit-content;
-    /* margin-bottom: 60px; */
-    margin-bottom: 7.4%;
+    height: 67px;
+    margin-bottom: 6.75%;
 }
 
 .message-btn {
@@ -109,8 +107,7 @@ a.header-active {
 .about-container {
     width: 100%;
     height: fit-content;
-    padding-top: 6.84%;
-    padding-bottom: 6.12%;
+    padding: 6% 0;
 }
 
 .about-block {
@@ -140,7 +137,7 @@ a.header-active {
 .project-container {
     width: 100%;
     height: fit-content;
-    padding: 6.12% 20%;
+    padding: 6% 20%;
     background: var(--bg-secondary);
 }
 
@@ -173,7 +170,7 @@ a.header-active {
 
 .job-container {
     width: 100%;
-    padding: 6.7% 0;
+    padding: 6% 0;
     background: var(--bg-main-shade);
 }
 
