@@ -132,7 +132,7 @@ a.header-active {
     font-weight: 400;
     font-size: 16px;
     line-height: 164%;
-    width: 29%;
+    width: 70%;
     text-align: center;
     color: var(--text-main);
 }
@@ -235,7 +235,7 @@ footer {
     }
 
     .main-text {
-        width: 100%;
+        width: 95%;
     }
 
     .main-text-block {
@@ -257,17 +257,17 @@ footer {
     }
 }
 
-@media (min-width: 760px) and (max-width: 1120px) {
+@media (min-width: 760px) and (max-width: 1200px) {
     .wrapper {
         width: 65%;
     }
 
     .main-text {
-        width: 70%;
+        width: 75%;
     }
 
     .main-text-block {
-        width: 50%;
+        width:70%;
     }
 
     .video {
