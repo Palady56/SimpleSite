@@ -132,7 +132,7 @@ a.header-active {
     font-weight: 400;
     font-size: 16px;
     line-height: 164%;
-    width: 70%;
+    width: 50%;
     text-align: center;
     color: var(--text-main);
 }
