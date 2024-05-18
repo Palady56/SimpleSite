@@ -9,6 +9,13 @@
     --font-family: "Roboto", sans-serif;
 }
 
+/* sass/scss */
+
+/*
+$bg-main: #fff;
+$bg-main-shade: #eeeff1;
+ */
+
 * {
     margin: 0;
     padding: 0;

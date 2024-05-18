@@ -1,0 +1,19 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transition($property, $duration) {
+  transition: $property $duration ease;
+}
+
+@mixin media($query) {
+  @if $query == 'small' {
+    @media (max-width: 375px) { @content; }
+  } @else if $query == 'medium' {
+    @media (min-width: 375px) and (max-width: 760px) { @content; }
+  } @else if $query == 'large' {
+    @media (min-width: 760px) and (max-width: 1200px) { @content; }
+  }
+}
