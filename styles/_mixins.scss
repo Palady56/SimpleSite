@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @mixin transition($property, $duration) {
   transition: $property $duration ease;
 }
